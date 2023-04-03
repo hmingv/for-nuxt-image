@@ -10,5 +10,11 @@ export default defineNuxtConfig({
     },
     modules: [
         '@nuxt/image-edge',
-    ]
+    ],
+    nitro: {
+      prerender : {
+        crawlLinks: false,
+        routes : ['/']
+      }
+    }
 })
