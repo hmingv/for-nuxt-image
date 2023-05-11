@@ -9,8 +9,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/image-edge": "^1.0.0-28004510.a0dc8e8",
-    "nuxt": "^3.3.2",
+    "@nuxt/image-edge": "^1.0.0-28059208.2abef1b",
+    "nuxt": "^3.4.3",
     "vite-svg-loader": "^4.0.0"
   }
 }
